@@ -34,7 +34,7 @@ public class Board {
 
     private boolean isDirWin(int x, int y, int xDir, int yDir){
         int s = board[x][y];
-        for (int mv = 0; mv < 5; mv++){
+        for (int mv = 0; mv < 4; mv++){
             if ((x + xDir * mv >= width)
                     || (x + xDir * mv < 0)
                     || (y + yDir * mv >= height)
